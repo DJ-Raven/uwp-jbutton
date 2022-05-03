@@ -180,6 +180,7 @@ public class UWPButton extends JButton {
 
     public void setBorderSize(int borderSize) {
         this.borderSize = borderSize;
+        repaint();
     }
 
     public Color getSelectedColor() {
@@ -188,6 +189,7 @@ public class UWPButton extends JButton {
 
     public void setSelectedColor(Color selectedColor) {
         this.selectedColor = selectedColor;
+        repaint();
     }
 
     public Color getEffectColor() {
@@ -196,5 +198,6 @@ public class UWPButton extends JButton {
 
     public void setEffectColor(Color effectColor) {
         this.effectColor = effectColor;
+        repaint();
     }
 }
